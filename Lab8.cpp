@@ -1,0 +1,19 @@
+#include <iostream> // Library to get inputs and outputs
+
+using namespace std;
+
+int main()
+{
+    int coffeeBronx = 1;
+    int coffeeBrooklyn = 2;
+
+    // Temporary variable to swap values
+    int temp = coffeeBronx;
+    coffeeBronx = coffeeBrooklyn;
+    coffeeBrooklyn = temp;
+
+    cout << "coffeeBronx is " << coffeeBronx 
+         << " & coffeeBrooklyn is " << coffeeBrooklyn << endl;
+
+    return 0;
+}
